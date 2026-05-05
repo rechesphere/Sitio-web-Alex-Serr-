@@ -669,4 +669,9 @@ h2 em {
     .doctor-name-plate { left: 20px; right: 20px; text-align: center; }
     
     .hidden-mobile { display: none !important; }
+
+    .header-actions .btn-whatsapp {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
 }
