@@ -395,8 +395,8 @@ h2 em {
 
 .service-icon {
     position: absolute;
-    bottom: -25px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
     width: 60px;
     height: 60px;
     background: var(--color-white);
