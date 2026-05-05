@@ -3,63 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Dental Alex Serra | Excelencia y Confort en Nou Barris</title>
-    <meta name="description" content="Clínica dental familiar en Nou Barris, Barcelona. Especialistas en implantes, estética dental y trato especial para pacientes con miedo al dentista.">
-    <!-- Google Fonts: Poppins -->
+    <title>Clínica Dental Alex Serra | Tu Sonrisa Perfecta. Sin Dolor. Sin Esperas.</title>
+    <meta name="description" content="Clínica dental en Nou Barris, Barcelona. Diagnóstico 3D, presupuesto cerrado sin sorpresas y tecnología sin dolor. Primera visita sin compromiso. Llámanos por WhatsApp.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- FontAwesome para Iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header / Navbar -->
-    <header class="header">
+    <!-- HEADER -->
+    <header class="header" id="top">
         <div class="container header-container">
             <div class="logo">
                 <i class="fa-solid fa-tooth text-accent"></i>
-                <span>Clínica Dental <br class="show-mobile"><strong>Alex Serra</strong></span>
+                <span>Clínica Dental <strong>Alex Serra</strong></span>
             </div>
             <div class="header-actions">
-                <a href="#contacto" class="btn btn-outline hidden-mobile">Ubicación</a>
-                <a href="https://wa.me/34609381757?text=Hola,%20vengo%20de%20la%20web%20y%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp">
+                <a href="#contacto" class="btn btn-outline hidden-mobile">
+                    <i class="fa-solid fa-location-dot"></i> Ubicación
+                </a>
+                <a href="https://wa.me/34609381757?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp" id="header-cta" target="_blank" rel="noopener">
                     <i class="fa-brands fa-whatsapp"></i> Pedir Cita
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- 1. Premium Hero Section (Split Layout) -->
-    <section class="hero-premium">
-        <div class="container hero-premium-container">
-            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
-                <div class="badge-premium"><i class="fa-solid fa-award"></i> Excelencia Odontológica</div>
-                <h1 class="hero-title">Tu sonrisa perfecta,<br><span>sin miedos ni dolor.</span></h1>
-                <p class="hero-subtitle">En Nou Barris, combinamos la más alta tecnología dental con un trato humano y cercano. Somos especialistas en superar el pánico al dentista.</p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/34609381757?text=Hola,%20vengo%20de%20la%20web%20y%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp btn-large pulse-animation">
-                        <i class="fa-brands fa-whatsapp"></i> Primera Visita Gratuita
-                    </a>
+    <!-- SECCIÓN 1 · HERO -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="900">
+                <div class="badge-premium">
+                    <i class="fa-solid fa-award"></i> Excelencia Odontológica · Nou Barris, Barcelona
                 </div>
+                <h1 class="hero-title">Tu Sonrisa Perfecta.<br><span class="hero-title-highlight">Sin Dolor.<br>Sin Esperas.</span></h1>
+                <p class="hero-subtitle">Atención personalizada con <strong>tecnología de diagnóstico 3D</strong> y presupuesto cerrado antes de empezar. Sin letra pequeña.</p>
+
+                <div class="hero-cta-block">
+                    <a href="https://wa.me/34609381757?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp btn-hero pulse-animation" id="hero-cta" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-whatsapp"></i> HABLAR POR WHATSAPP AHORA
+                    </a>
+                    <p class="microcopy"><span class="dot-live"></span> Respondemos en menos de 15 min</p>
+                </div>
+
                 <div class="hero-trust">
                     <div class="avatars">
-                        <img src="https://i.pravatar.cc/100?img=1" alt="Paciente" class="avatar-img">
-                        <img src="https://i.pravatar.cc/100?img=2" alt="Paciente" class="avatar-img">
-                        <img src="https://i.pravatar.cc/100?img=3" alt="Paciente" class="avatar-img">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="Paciente satisfecha" class="avatar-img" loading="lazy">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="Paciente satisfecho" class="avatar-img" loading="lazy">
+                        <img src="https://i.pravatar.cc/100?img=47" alt="Paciente satisfecha" class="avatar-img" loading="lazy">
                     </div>
                     <div class="trust-text">
-                        <div class="stars text-accent"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
-                        <span><strong>4,6/5</strong> en Google Reviews</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <span><strong>4,6/5</strong> en Google Reviews · +380 opiniones</span>
                     </div>
                 </div>
             </div>
-            <div class="hero-image-wrapper" data-aos="fade-left" data-aos-duration="1200">
-                <img src="img/hero.png" alt="Interior Clínica Premium" class="hero-img">
+
+            <div class="hero-image-wrapper" data-aos="fade-left" data-aos-duration="1100">
+                <img src="img/hero.png" alt="Interior Clínica Dental Alex Serra" class="hero-img" loading="eager">
                 <div class="glass-card floating-card">
                     <div class="glass-icon"><i class="fa-solid fa-shield-halved"></i></div>
                     <div class="glass-text">
@@ -67,164 +73,163 @@
                         <span>Materiales de calidad suprema</span>
                     </div>
                 </div>
+                <div class="glass-card-2 floating-card-2">
+                    <i class="fa-solid fa-circle-check" style="color:var(--color-whatsapp);font-size:1.2rem;"></i>
+                    <span><strong>Presupuesto cerrado</strong><br><small>Sin sorpresas al final</small></span>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- 2. Sección "El Método Serra" (Nuevo) -->
-    <section class="method-section bg-light" id="metodo">
+    <!-- SECCIÓN 2 · AGITACIÓN DEL PROBLEMA -->
+    <section class="pain-section bg-white">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <span class="subtitle-accent">NUESTRA FILOSOFÍA</span>
-                <h2>¿Pánico al dentista? Descubre el <em>Método Serra</em></h2>
-                <p>Hemos rediseñado la experiencia dental para que ir al dentista deje de ser un trauma y se convierta en un momento de autocuidado.</p>
+                <span class="subtitle-accent">¿TE IDENTIFICAS CON ESTO?</span>
+                <h2>¿Cansado de clínicas que te venden tratamientos que no necesitas?</h2>
+                <p>Sabemos que la mayoría de las personas evitan el dentista por tres razones concretas. Las hemos resuelto.</p>
             </div>
-            <div class="grid-3 method-steps">
-                <div class="method-step" data-aos="fade-up" data-aos-delay="100">
-                    <div class="step-number">01</div>
-                    <h3>Escucha Activa</h3>
-                    <p>Antes de mirar tus dientes, te escuchamos. Entendemos tus miedos y adaptamos el ritmo de la consulta a tu tranquilidad.</p>
+            <div class="grid-3 pain-grid">
+                <div class="pain-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pain-icon pain-icon--red"><i class="fa-solid fa-face-grimace"></i></div>
+                    <h3><strong>Dolor Innecesario</strong></h3>
+                    <p>Protocolos de <strong>anestesia suave</strong> y sedación opcional. Cero dolor garantizado desde el primer minuto.</p>
                 </div>
-                <div class="method-step" data-aos="fade-up" data-aos-delay="200">
-                    <div class="step-number">02</div>
-                    <h3>Transparencia Total</h3>
-                    <p>Explicamos detalladamente cada paso, el porqué de cada tratamiento y el presupuesto sin sorpresas ni letra pequeña.</p>
+                <div class="pain-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pain-icon pain-icon--orange"><i class="fa-solid fa-receipt"></i></div>
+                    <h3><strong>Precios Ocultos</strong></h3>
+                    <p><strong>Presupuesto cerrado por escrito</strong> antes de empezar. Lo que te decimos es lo que pagas. Sin excepciones.</p>
                 </div>
-                <div class="method-step" data-aos="fade-up" data-aos-delay="300">
-                    <div class="step-number">03</div>
-                    <h3>Odontología Sin Dolor</h3>
-                    <p>Utilizamos técnicas modernas de anestesia y aparatología de última generación para garantizar tu máximo confort.</p>
+                <div class="pain-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pain-icon pain-icon--blue"><i class="fa-solid fa-clock"></i></div>
+                    <h3><strong>Esperas Eternas</strong></h3>
+                    <p>Citas <strong>puntuales a la hora acordada</strong>. Sin sala de espera interminable. Tu tiempo es valioso.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 3. Tratamientos Premium Detallados -->
-    <section class="services-premium" id="servicios">
+    <!-- SECCIÓN 3 · DESEO + JUSTIFICACIÓN LÓGICA -->
+    <section class="desire-section">
+        <div class="container desire-container">
+            <div class="desire-image" data-aos="zoom-in" data-aos-duration="900">
+                <img src="img/patient.png" alt="Paciente con sonrisa perfecta tras tratamiento" class="desire-img" loading="lazy">
+                <div class="desire-badge">
+                    <i class="fa-solid fa-star" style="color:#FFD700;"></i>
+                    <span>Resultado real de paciente</span>
+                </div>
+            </div>
+            <div class="desire-text" data-aos="fade-left" data-aos-duration="900">
+                <span class="subtitle-accent">EL RESULTADO QUE MERECES</span>
+                <h2>Imagina mirarte al espejo y <em>sentirte seguro</em> al hablar, reír o comer sin miedo.</h2>
+                <p class="desire-copy">Ese momento existe. Y está más cerca de lo que crees. Cientos de pacientes de Nou Barris ya lo viven. <strong>Sin dolor. Con presupuesto cerrado. A tu ritmo.</strong></p>
+                <div class="rational-box">
+                    <div class="rational-icon"><i class="fa-solid fa-euro-sign"></i></div>
+                    <div>
+                        <strong>Financiación sin intereses disponible</strong>
+                        <p>Tu salud bucal es una inversión, no un gasto. Diseñamos un plan de pago adaptado a ti para que la economía no sea un obstáculo.</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/34609381757?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp btn-large" id="desire-cta" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-whatsapp"></i> Quiero mi Primera Visita Gratuita
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4 · MÉTODO SERRA -->
+    <section class="method-section" id="metodo">
         <div class="container">
-            <div class="grid-2 align-center mb-50">
-                <div data-aos="fade-right">
-                    <span class="subtitle-accent">NUESTROS SERVICIOS</span>
-                    <h2>Soluciones integrales para una sonrisa radiante</h2>
+            <div class="section-header section-header--light" data-aos="fade-up">
+                <span class="subtitle-accent--light">NUESTRO PROCESO</span>
+                <h2 class="h2-light">El Método Serra: Odontología sin ansiedad en <em class="em-accent">4 pasos</em></h2>
+                <p class="p-light">Un protocolo diseñado para que tu experiencia sea completamente diferente a todo lo que has vivido antes en un dentista.</p>
+            </div>
+            <div class="method-steps-grid">
+                <div class="method-step-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-num">01</div>
+                    <div class="step-icon"><i class="fa-solid fa-cube"></i></div>
+                    <h3>Diagnóstico 3D Gratuito</h3>
+                    <p>Escaneo digital completo <strong>sin radiación convencional</strong>. Vemos exactamente qué necesitas antes de tocarte un diente.</p>
                 </div>
-                <div data-aos="fade-left">
-                    <p>Ofrecemos una gama completa de especialidades dentales bajo un mismo techo, utilizando los materiales más avanzados del sector.</p>
+                <div class="method-step-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-num">02</div>
+                    <div class="step-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                    <h3>Plan Personalizado</h3>
+                    <p>Te explicamos opciones, precios y tiempos <strong>sin presión y sin letra pequeña</strong>. Tú decides cuándo y cómo empezar.</p>
+                </div>
+                <div class="method-step-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-num">03</div>
+                    <div class="step-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>Tratamiento Sin Dolor</h3>
+                    <p>Tecnología láser y <strong>sedación consciente si la necesitas</strong>. El "no duele" deja de ser una promesa vacía.</p>
+                </div>
+                <div class="method-step-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-num">04</div>
+                    <div class="step-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Seguimiento Post-Tratamiento</h3>
+                    <p>Te acompañamos <strong>hasta el resultado final</strong>. Revisiones de control incluidas. Nunca te dejamos solo.</p>
                 </div>
             </div>
-            
-            <div class="grid-3 services-grid">
-                <!-- Implantes -->
-                <div class="service-card-premium" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-img-wrapper">
-                        <img src="img/patient.png" alt="Implantes Dentales" class="service-img">
-                        <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
-                    </div>
-                    <div class="service-content">
-                        <h3>Implantes de Alta Gama</h3>
-                        <p>Recupera la funcionalidad y estética natural de tus dientes perdidos con implantes biocompatibles de titanio.</p>
-                        <ul class="service-list">
-                            <li><i class="fa-solid fa-check text-accent"></i> Cirugía mínimamente invasiva</li>
-                            <li><i class="fa-solid fa-check text-accent"></i> Coronas estéticas de zirconio</li>
-                            <li><i class="fa-solid fa-check text-accent"></i> Resultados para toda la vida</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Endodoncias -->
-                <div class="service-card-premium" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-img-wrapper">
-                        <img src="https://images.pexels.com/photos/7800667/pexels-photo-7800667.jpeg" alt="Instrumentos de Endodoncia" class="service-img">
-                        <div class="service-icon"><i class="fa-solid fa-shield-virus"></i></div>
-                    </div>
-                    <div class="service-content">
-                        <h3>Endodoncia Avanzada</h3>
-                        <p>Salva tu diente natural con tratamientos de conducto mecanizados de alta precisión. El dolor desaparece de inmediato.</p>
-                        <ul class="service-list">
-                            <li><i class="fa-solid fa-check text-accent"></i> Cero dolor durante el proceso</li>
-                            <li><i class="fa-solid fa-check text-accent"></i> Evita extracciones innecesarias</li>
-                            <li><i class="fa-solid fa-check text-accent"></i> Recuperación inmediata</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Estética y General -->
-                <div class="service-card-premium" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-img-wrapper">
-                        <img src="https://images.pexels.com/photos/16212691/pexels-photo-16212691.png" alt="Estética y Prevención" class="service-img">
-                        <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-                    </div>
-                    <div class="service-content">
-                        <h3>Estética y Prevención</h3>
-                        <p>Desde blanqueamientos dentales seguros hasta limpiezas profundas y odontología conservadora para toda la familia.</p>
-                        <ul class="service-list">
-                            <li><i class="fa-solid fa-check text-accent"></i> Revisiones diagnósticas</li>
-                            <li><i class="fa-solid fa-check text-accent"></i> Blanqueamiento LED</li>
-                            <li><i class="fa-solid fa-check text-accent"></i> Odontopediatría</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="method-cta" data-aos="fade-up" data-aos-delay="500">
+                <a href="https://wa.me/34609381757?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp btn-large" id="method-cta" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-whatsapp"></i> Empezar con el Diagnóstico Gratuito
+                </a>
+                <p class="microcopy microcopy--light"><span class="dot-live dot-live--light"></span> Sin compromiso · Respondemos hoy</p>
             </div>
         </div>
     </section>
 
-    <!-- 4. Conoce a tu Dentista (Nuevo) -->
-    <section class="doctor-section bg-light" id="equipo">
-        <div class="container doctor-container">
-            <div class="doctor-image" data-aos="zoom-in">
-                <img src="img/doctor.png" alt="Dr. Alex Serra">
-                <div class="doctor-name-plate">
-                    <strong>Dr. Alex Serra</strong>
-                    <span>Director Médico y Fundador</span>
-                </div>
-            </div>
-            <div class="doctor-text" data-aos="fade-left">
-                <span class="subtitle-accent">TU DENTISTA DE CONFIANZA</span>
-                <h2>Más de 15 años cuidando las sonrisas de Barcelona</h2>
-                <p><em>"Mi objetivo principal siempre ha sido cambiar la percepción que la gente tiene de ir al dentista. Quiero que cada paciente se sienta en familia, escuchado y seguro."</em></p>
-                <p>Especialista en cirugía oral e implantología, el Dr. Serra lidera un equipo comprometido con la excelencia técnica y, sobre todo, con la calidad humana. El trato cercano y la ética profesional son los pilares de nuestra clínica.</p>
-                <div class="signature">Alex Serra</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 5. Testimonios Premium -->
-    <section class="testimonials-premium">
+    <!-- SECCIÓN 5 · TESTIMONIOS -->
+    <section class="testimonials-section bg-white">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <span class="subtitle-accent">CASOS DE ÉXITO</span>
-                <h2>El mayor premio es vuestra sonrisa</h2>
+                <span class="subtitle-accent">CASOS REALES</span>
+                <h2>Personas que ya sonríen sin miedo</h2>
+                <p>Testimonios reales de pacientes de Nou Barris y alrededores.</p>
             </div>
-            <div class="grid-3">
-                <div class="testimonial-card-premium" data-aos="fade-up" data-aos-delay="100">
+            <div class="grid-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-card">
                     <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
-                    <p class="review">"Clínica dental familiar con un trato cercano y muy profesional. Ofrecen todo tipo de tratamientos con materiales de alta calidad y explican cada paso con claridad."</p>
+                    <p class="review-text">Tenía pánico al dentista. En 3 sesiones, sin dolor, tengo la sonrisa que quería. <strong>Precio cerrado y sin sorpresas</strong>. No volvería a otro sitio.</p>
                     <div class="reviewer-info">
-                        <div class="reviewer-avatar">L</div>
+                        <div class="reviewer-avatar reviewer-avatar--cyan">M</div>
                         <div>
-                            <span class="name">Lirana Fernandez</span>
-                            <div class="stars text-accent"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <span class="reviewer-name">María G.</span>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card-premium" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card">
                     <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
-                    <p class="review">"Tenía pánico al dentista... solo decir que son maravillosos! Implantes, extracciones, endodoncias... un sin fin de cosas. Recomiendo 100%."</p>
+                    <p class="review-text">Llevaba 8 años sin ir al dentista por el miedo. El Dr. Serra me explicó todo con paciencia. <strong>Cero dolor, cero presión</strong>. Me lo recomendaron y ahora lo recomiendo yo.</p>
                     <div class="reviewer-info">
-                        <div class="reviewer-avatar">F</div>
+                        <div class="reviewer-avatar reviewer-avatar--dark">F</div>
                         <div>
-                            <span class="name">Ferran Pascual</span>
-                            <div class="stars text-accent"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <span class="reviewer-name">Ferran P.</span>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card-premium" data-aos="fade-up" data-aos-delay="300">
+                <div class="testimonial-card">
                     <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
-                    <p class="review">"Mi experiencia fue excelente, se preocupan por el bienestar del paciente. Totalmente recomendable y la relación calidad-precio es perfecta."</p>
+                    <p class="review-text">El presupuesto fue exactamente lo que me dijeron al inicio. <strong>Sin cobros extra, sin sustos</strong>. La clínica familiar de referencia en Nou Barris.</p>
                     <div class="reviewer-info">
-                        <div class="reviewer-avatar">D</div>
+                        <div class="reviewer-avatar reviewer-avatar--cyan">L</div>
                         <div>
-                            <span class="name">David Fernandez</span>
-                            <div class="stars text-accent"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <span class="reviewer-name">Lirana F.</span>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review-text">Me hice los implantes aquí. El proceso fue <strong>más rápido y menos doloroso de lo que imaginaba</strong>. Ahora como de todo. Gracias, equipo.</p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar reviewer-avatar--dark">D</div>
+                        <div>
+                            <span class="reviewer-name">David F.</span>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                         </div>
                     </div>
                 </div>
@@ -232,101 +237,145 @@
         </div>
     </section>
 
-    <!-- 6. FAQ Section (Nuevo) -->
-    <section class="faq-section bg-light">
-        <div class="container faq-container">
-            <div class="section-header" data-aos="fade-up">
-                <span class="subtitle-accent">RESOLVEMOS TUS DUDAS</span>
-                <h2>Preguntas Frecuentes</h2>
-            </div>
-            <div class="faq-accordion" data-aos="fade-up" data-aos-delay="100">
-                <details class="faq-item" open>
-                    <summary>Tengo mucho miedo al dentista, ¿cómo podéis ayudarme?</summary>
-                    <div class="faq-content">
-                        Somos especialistas en pacientes con odontofobia. Nuestro "Método Serra" se basa en la paciencia, la explicación paso a paso y la creación de un ambiente relajado. Nunca te forzaremos a hacer nada y usamos técnicas de mínima invasión para que no sientas dolor.
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary>¿Ofrecéis opciones de financiación?</summary>
-                    <div class="faq-content">
-                        Sí, sabemos que algunos tratamientos como los implantes son una inversión. Ofrecemos planes de pago personalizados y financiación a medida para que la economía no sea un impedimento para recuperar tu salud dental.
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary>¿Qué incluye la primera visita gratuita?</summary>
-                    <div class="faq-content">
-                        Tu primera visita incluye una revisión completa por parte del Dr. Serra, un diagnóstico detallado, explicación del estado de tu boca y un plan de tratamiento personalizado con presupuesto sin ningún tipo de compromiso.
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- 7. CTA Final y Contacto -->
-    <section class="contact-premium" id="contacto">
+    <!-- SECCIÓN 6 · CIERRE + MAPA -->
+    <section class="closing-section" id="contacto">
         <div class="container">
-            <div class="contact-card">
-                <div class="contact-info-side" data-aos="fade-right">
-                    <h2>Visítanos en Nou Barris</h2>
-                    <p>Estamos listos para darte la bienvenida a nuestra familia de pacientes satisfechos.</p>
-                    
+            <div class="closing-header" data-aos="fade-up">
+                <span class="subtitle-accent">EMPIEZA HOY</span>
+                <h2>Tu primera visita es <em>sin compromiso</em>. ¿Empezamos?</h2>
+                <div class="urgency-bar">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>Agenda limitada para nuevos pacientes. <strong>Reservamos solo 2 plazas nuevas esta semana.</strong></span>
+                </div>
+            </div>
+            <div class="closing-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="closing-info">
+                    <h3>Clínica Dental Alex Serra</h3>
                     <div class="contact-list">
                         <div class="contact-item">
                             <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
                             <div>
                                 <strong>Dirección</strong>
-                                <span><a href="https://maps.app.goo.gl/t8y5gKRLbdJzm8ot6" target="_blank" style="color: inherit; text-decoration: none;">Carrer de Joaquim Valls, 84, 08016 Barcelona</a></span>
+                                <span><a href="https://maps.app.goo.gl/t8y5gKRLbdJzm8ot6" target="_blank" rel="noopener" class="map-link">Carrer de Joaquim Valls, 84, 08016 Barcelona</a></span>
                             </div>
                         </div>
                         <div class="contact-item">
                             <div class="icon-circle"><i class="fa-solid fa-clock"></i></div>
                             <div>
                                 <strong>Horario</strong>
-                                <span>Apertura a las 10:00h</span>
+                                <span>Lunes – Viernes · Apertura a las 10:00h</span>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                            <div class="icon-circle"><i class="fa-brands fa-whatsapp" style="color:var(--color-whatsapp);"></i></div>
                             <div>
-                                <strong>Atención Inmediata</strong>
+                                <strong>WhatsApp Directo</strong>
                                 <span>609 38 17 57</span>
                             </div>
                         </div>
                     </div>
-                    
-                    <a href="https://wa.me/34609381757?text=Hola,%20vengo%20de%20la%20web%20y%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp btn-huge w-100">
-                        <i class="fa-brands fa-whatsapp"></i> Hablar con un Asesor
+                    <a href="https://wa.me/34609381757?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp btn-hero w-100" id="closing-cta" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-whatsapp"></i> HABLAR POR WHATSAPP AHORA
                     </a>
+                    <p class="microcopy mt-12"><i class="fa-solid fa-lock" style="font-size:.8rem;"></i> Respuesta en menos de 24h · Confidencialidad total</p>
                 </div>
-                <div class="map-side" data-aos="fade-left">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.688327989938!2d2.1787899!3d41.4441628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bd19349be263%3A0xb1b9ce5486ca6804!2sCl%C3%ADnica%20Dental%20Alex%20Serra!5e0!3m2!1ses!2ses!4v1708453412345!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="closing-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.688327989938!2d2.1787899!3d41.4441628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bd19349be263%3A0xb1b9ce5486ca6804!2sCl%C3%ADnica%20Dental%20Alex%20Serra!5e0!3m2!1ses!2ses!4v1708453412345!5m2!1ses!2ses"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Clínica Dental Alex Serra">
+                    </iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="footer-premium">
         <div class="container footer-content">
             <div class="footer-logo">
-                <i class="fa-solid fa-tooth text-accent"></i> Clínica Dental Alex Serra
+                <i class="fa-solid fa-tooth text-accent"></i> Clínica Dental <strong>Alex Serra</strong>
             </div>
-            <p>&copy; 2024. Todos los derechos reservados. Diseñado con excelencia.</p>
+            <p>&copy; 2025 Clínica Dental Alex Serra. Todos los derechos reservados.</p>
+            <p class="footer-legal">Carrer de Joaquim Valls, 84 · 08016 Nou Barris, Barcelona</p>
         </div>
     </footer>
 
-    <!-- Botón Flotante de WhatsApp -->
-    <a href="https://wa.me/34609381757?text=Hola,%20vengo%20de%20la%20web%20y%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n." class="whatsapp-float pulse-animation" target="_blank" aria-label="Hablar por WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <!-- WIDGET WHATSAPP INTELIGENTE -->
+    <div class="wa-widget" id="wa-widget">
+        <button class="wa-float-btn pulse-animation" id="wa-open-btn" aria-label="Abrir chat de WhatsApp">
+            <i class="fa-brands fa-whatsapp" id="wa-icon-open"></i>
+            <i class="fa-solid fa-xmark" id="wa-icon-close" style="display:none;"></i>
+        </button>
+        <div class="wa-modal" id="wa-modal" role="dialog" aria-modal="true" aria-label="Chat WhatsApp">
+            <div class="wa-modal-header">
+                <div class="wa-avatar"><i class="fa-solid fa-tooth"></i></div>
+                <div class="wa-header-text">
+                    <strong>Clínica Alex Serra</strong>
+                    <span><span class="dot-online"></span> En línea ahora</span>
+                </div>
+            </div>
+            <div class="wa-modal-body">
+                <p class="wa-greeting">Hola! Soy el asistente de la clínica. ¿Sobre qué quieres que hablemos?</p>
+                <div class="wa-questions" id="wa-questions">
+                    <button class="wa-q-btn" data-q="0" id="wa-q-0"><i class="fa-solid fa-syringe"></i> ¿Duele el tratamiento?</button>
+                    <button class="wa-q-btn" data-q="1" id="wa-q-1"><i class="fa-solid fa-euro-sign"></i> ¿Cuál es el precio?</button>
+                    <button class="wa-q-btn" data-q="2" id="wa-q-2"><i class="fa-solid fa-calendar-check"></i> ¿Tienen disponibilidad?</button>
+                </div>
+                <div class="wa-answer" id="wa-answer" style="display:none;">
+                    <div class="wa-answer-bubble" id="wa-answer-text"></div>
+                </div>
+            </div>
+            <div class="wa-modal-footer">
+                <a href="https://wa.me/34609381757?text=Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20informaci%C3%B3n." class="btn btn-whatsapp w-100" id="wa-send-btn" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-whatsapp"></i> Enviar WhatsApp ahora
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        // Inicializar animaciones de scroll
-        AOS.init({
-            once: true, // Las animaciones solo ocurren una vez
-            offset: 50, // Píxeles de scroll antes de que empiece la animación
+        AOS.init({ once: true, offset: 60, duration: 800 });
+
+        const waAnswers = [
+            "Trabajamos con sedación y anestesia suave. <strong>Cero dolor garantizado</strong> desde el primer momento. Muchos pacientes se duermen durante el tratamiento.",
+            "Cada caso es único. Te damos <strong>presupuesto cerrado por escrito</strong> en tu primera visita, sin compromiso. Ofrecemos financiación sin intereses.",
+            "Sí, agenda abierta. <strong>Te confirmamos cita en menos de 24h</strong>. Escríbenos ahora y reservamos tu plaza."
+        ];
+        const openBtn   = document.getElementById('wa-open-btn');
+        const modal     = document.getElementById('wa-modal');
+        const iconOpen  = document.getElementById('wa-icon-open');
+        const iconClose = document.getElementById('wa-icon-close');
+        const answerEl  = document.getElementById('wa-answer');
+        const answerTxt = document.getElementById('wa-answer-text');
+
+        openBtn.addEventListener('click', () => {
+            const isOpen = modal.classList.toggle('wa-modal--open');
+            iconOpen.style.display  = isOpen ? 'none'  : 'block';
+            iconClose.style.display = isOpen ? 'block' : 'none';
+        });
+
+        document.querySelectorAll('.wa-q-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const idx = parseInt(btn.dataset.q);
+                answerTxt.innerHTML = waAnswers[idx];
+                answerEl.style.display = 'block';
+                document.querySelectorAll('.wa-q-btn').forEach(b => b.classList.remove('wa-q-btn--active'));
+                btn.classList.add('wa-q-btn--active');
+                const messages = [
+                    'Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20saber%20si%20duele%20el%20tratamiento.',
+                    'Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20saber%20el%20precio%20de%20los%20tratamientos.',
+                    'Hola%2C%20vengo%20de%20la%20web%20y%20quiero%20pedir%20cita.'
+                ];
+                document.getElementById('wa-send-btn').href = `https://wa.me/34609381757?text=${messages[idx]}`;
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!document.getElementById('wa-widget').contains(e.target)) {
+                modal.classList.remove('wa-modal--open');
+                iconOpen.style.display  = 'block';
+                iconClose.style.display = 'none';
+            }
         });
     </script>
 </body>
